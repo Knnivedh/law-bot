@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:7860';
 
 class ApiClient {
   async query(question, category = 'general', targetLanguage = null, signal = null, sessionId = null, webSearchMode = false) {
